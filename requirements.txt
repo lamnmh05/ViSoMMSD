@@ -6,4 +6,6 @@ python-dotenv
 ruff
 tqdm
 typer
+google
+scikit-learn
 -e .
