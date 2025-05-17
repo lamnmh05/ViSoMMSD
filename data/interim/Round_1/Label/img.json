@@ -1,0 +1,802 @@
+[
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1004.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1013.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1028.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1031.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1038.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1041.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1049.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1050.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_106.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1063.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1065.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1072.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1073.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1076.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1084.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1089.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1090.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_111.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_118.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_124.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_126.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_138.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_144.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_153.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_157.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_178.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_18.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_180.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_182.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_19.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_190.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_196.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_197.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_2.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_20.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_202.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_207.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_224.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_226.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_23.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_230.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_233.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_241.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_248.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_252.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_255.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_262.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_263.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_264.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_276.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_284.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_292.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_296.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_297.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_299.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_301.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_303.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_311.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_314.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_315.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_328.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_331.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_334.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_335.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_34.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_352.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_354.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_363.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_367.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_379.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_387.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_388.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_4.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_400.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_405.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_410.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_420.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_422.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_425.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_43.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_440.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_443.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_444.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_45.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_462.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_469.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_485.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_49.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_492.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_493.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_494.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_496.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_504.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_515.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_523.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_524.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_528.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_531.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_545.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_556.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_570.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_573.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_579.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_582.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_583.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_588.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_597.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_598.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_60.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_602.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_604.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_620.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_626.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_628.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_629.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_632.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_633.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_634.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_637.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_639.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_640.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_646.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_651.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_652.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_653.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_655.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_659.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_660.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_661.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_664.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_669.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_671.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_674.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_675.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_680.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_683.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_688.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_692.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_699.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_703.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_713.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_726.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_727.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_730.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_731.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_736.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_739.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_74.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_742.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_749.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_76.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_767.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_770.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_775.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_777.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_780.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_785.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_79.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_795.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_802.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_814.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_819.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_831.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_834.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_841.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_843.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_844.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_849.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_852.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_854.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_862.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_872.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_878.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_880.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_886.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_888.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_889.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_893.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_895.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_899.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_902.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_907.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_909.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_917.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_933.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_934.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_935.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_940.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_948.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_952.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_958.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_959.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_96.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_975.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_979.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_984.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_993.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_996.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_1000.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image_url": "https://storage.googleapis.com/sarcasm_detection_data/images/fb_10.jpg",
+    "label": "Non-sarcasm"
+  }
+]
