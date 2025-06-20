@@ -1,0 +1,29 @@
+system_prompt: |
+  You are an expert in detecting sarcasm in Vietnamese social media contexts. You fully understand Vietnamese language, slang, pop-culture references, memes, and common communication styles found on platforms like Facebook, Zalo, TikTok, and Instagram. Analyze both the text and images as they are typically used in Vietnamese online conversations.
+
+  [Definition] Sarcasm is the caustic use of words, often in a humorous way, to mock or ridicule someone or something. In multimodal contexts, sarcasm can be expressed through text, images, or the interplay between them. Sarcasm may involve irony, exaggeration, visual or textual contradictions, or the use of familiar meme formats. It is largely context-dependent and often recognized by an extreme mismatch between the comment and the situation depicted, or by the way images and text reinforce or contradict each other. While sarcasm is most noticeable in speech by tone of voice, in online environments it is conveyed through word choice, visual cues, and contextual clues within both the caption and the accompanying image.
+
+user_prompt: |
+  Before making a decision, remember that not every humorous, playful, or informal caption is sarcasm. Many captions and images online are sincere or simply descriptive. Look for clear cues of sarcasm such as irony, exaggeration, contradiction between image and text, or well-known meme formats. 
+  **If the content does not clearly show these cues, consider it as "non-sarcasm".**
+
+  **Examples:**
+  - Caption: "Tôi là con người sống tiết kiệm"
+    Image: Ảnh chất 1 đống hàng hóa, nói về sự tiêu xài hoang phí
+    → Label: sarcasm
+  - Caption: "Hình ảnh lũ bạn tôi khi bàn về kế hoạch đi chơi không bao giờ xảy ra"
+    Image: Ảnh của 1 đám hề, châm chọc nhóm bạn chỉ hẹn chứ không bao giờ đi
+    → Label: sarcasm
+  - Caption: "Được thầy giáo gọi tên mỗi tiết, chắc nổi tiếng lớp quá rồi."
+    Image: Ảnh một học sinh đứng cuối lớp, xung quanh bạn bè nhìn cười, giáo viên đang gọi kiểm tra miệng.
+    → Label: non-sarcasm
+  - Caption: "Hôm nay làm việc đến 10 giờ tối, cảm giác thật sự mệt mỏi."
+    Image: Ảnh một người ngồi trước laptop trong căn phòng tối, mắt thâm quầng, bàn làm việc bừa bộn.
+    → Label: non-sarcasm
+
+  Now, step by step:
+  1. List any cues in the text or image that may indicate sarcasm (irony, exaggeration, memes, contradictions, trending references). 
+  2. If cues are not clear, explain why this is likely "non-sarcasm".
+  3. Combine these signals to decide whether the overall content is "sarcasm" or "non-sarcasm".
+  4. Justify your decision.
+  Here is the caption:

@@ -1,0 +1,123 @@
+import os
+import time
+import json
+from google import genai
+from google.genai import types
+from google.genai.types import HttpOptions
+from google.api_core.exceptions import GoogleAPICallError, RetryError, InvalidArgument
+from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
+from dotenv import load_dotenv, find_dotenv
+from loguru import logger
+from main.utils import get_config
+
+
+def label_sample(client, model, ith_sample, prompt):
+    ith, sample = ith_sample
+    logger.info(f"Processing sample {ith}:")
+    try:
+        with open(sample['image'], 'rb') as f:
+            img_bytes = f.read()
+    except Exception as e:
+        logger.error(f"Error loading image {sample.get('image')}: {e}")
+        return None
+
+    contents = [
+        types.Content(
+            role="user",
+            parts=[
+                types.Part.from_bytes(mime_type="image/png", data=img_bytes),
+                types.Part.from_text(text=f"{prompt.user_prompt} {sample['caption']}"),
+            ],
+        ),
+    ]
+    generate_content_config = types.GenerateContentConfig(
+        response_mime_type="application/json",
+        response_schema=genai.types.Schema(
+            type=genai.types.Type.OBJECT,
+            properties={
+                "label": genai.types.Schema(type=genai.types.Type.STRING),
+                "explanation": genai.types.Schema(type=genai.types.Type.STRING),
+            },
+        ),
+        system_instruction=[
+            types.Part.from_text(text=prompt.system_prompt),
+        ],
+    )
+    try:
+        result = client.models.generate_content(
+            model=model,
+            contents=contents,
+            config=generate_content_config,
+        )
+        logger.info(f"Completed sample {ith}")
+        output = sample
+        if result and hasattr(result, 'parsed'):
+            output.update(result.parsed)
+        return output
+    except (InvalidArgument, RetryError, GoogleAPICallError) as e:
+        logger.error(f"API error for item {ith}: {e}")
+        return None
+    except Exception as e:
+        logger.error(f"Unexpected error for item {ith}: {e}")
+        return None
+
+def main(config):
+    if load_dotenv(find_dotenv()):
+        logger.info("Successfully loaded environment variables from .env file.")
+    else:
+        logger.warning("Could not find .env file. Attempting to use environment variables directly.")
+
+    key = os.getenv('API_KEY')
+    model = config.model_name
+    prompt = get_config(config.prompt_path)
+    data = json.load(open(config.input_file, 'r', encoding='utf-8'))
+
+    for sample in data:
+        if not os.path.isabs(sample['image']):
+            sample['image'] = os.path.join(config.image_folder, sample['image'])
+
+    client = genai.Client(api_key=key, http_options=HttpOptions(timeout=config.http_timeout * 1000))
+    output = []
+    failed_rows = []
+    total = len(data)
+
+    with ThreadPoolExecutor(max_workers=config.max_workers) as executor:
+        futures = {
+            executor.submit(label_sample, client, model, (ith, sample), prompt): ith
+            for ith, sample in enumerate(data)
+        }
+        for future in as_completed(futures):
+            ith = futures[future]
+            try:
+                result = future.result(timeout=config.http_timeout)
+                if result:
+                    output.append(result)
+                else:
+                    failed_rows.append(data[ith])
+            except TimeoutError:
+                logger.error(f"Timeout while processing item {ith}")
+                failed_rows.append(data[ith])
+            except Exception as e:
+                logger.error(f"Unhandled error in thread for item {ith}: {e}")
+                failed_rows.append(data[ith])
+            logger.info(f"Processed: {len(output)}/{total} | Failed: {len(failed_rows)}")
+
+    with open(config.output_file, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    with open(config.failed_file, "w", encoding="utf-8") as f:
+        json.dump(failed_rows, f, ensure_ascii=False, indent=2)
+    logger.info('Output saved')
+
+if __name__ == "__main__":
+    start_time = time.time()
+    config = get_config(r"D:\Git_repo\ViSoMMSD\config\CoT_4-shot_gemini-1.5-pro.yaml")
+    try:
+        main(config)
+    except KeyboardInterrupt:
+        logger.warning("Process interrupted by user")
+    except Exception as e:
+        logger.critical(f"Unhandled exception: {e}", exc_info=True)
+    finally:
+        elapsed = time.time() - start_time
+        logger.info(f"Prompt technique: {config.name}")
+        logger.info(f"Total execution time: {elapsed:.2f} seconds")

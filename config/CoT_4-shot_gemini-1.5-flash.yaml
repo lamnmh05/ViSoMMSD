@@ -1,0 +1,17 @@
+name: CoT_4-shot_gemini-1.5-flash-002
+
+input_file: "D:/Git_repo/ViSoMMSD/data/interim/full_data/llm_input.json"
+image_folder: "D:/Git_repo/ViSoMMSD/data/all/merged"
+
+output_file: "D:/Git_repo/ViSoMMSD/data/external/llm_label/CoT_4-shot_gemini-1.5-flash-002.json"
+failed_file: "D:/Git_repo/ViSoMMSD/data/external/llm_label/failed_CoT_4-shot_gemini-1.5-flash-002.json"
+
+model_name: "gemini-1.5-flash-002"
+prompt_path: "D:/Git_repo/ViSoMMSD/prompt/CoT_4-shot.yaml"
+#Gemini 1.5 flash RPM = 2000
+
+http_timeout: 30 #second [20-120]
+#batch_size: 30 # RPM/60
+max_workers: 50 # RPM/60*http_timeout*0.6
+
+

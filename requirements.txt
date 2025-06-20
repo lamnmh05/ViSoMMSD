@@ -1,0 +1,11 @@
+loguru
+mkdocs
+pip
+pytest
+python-dotenv
+ruff
+tqdm
+typer
+google
+scikit-learn
+-e .

@@ -1,0 +1,18 @@
+name: CoT_4-shot_gemma-3-4b-it
+
+#input_file: "D:/Git_repo/ViSoMMSD/data/interim/full_data/llm_input.json"
+input_file: "D:/Git_repo/ViSoMMSD/data/llm_label/failed_multi_gemma-3-27b-it.json"
+
+image_folder: "D:/Git_repo/ViSoMMSD/data/all/merged"
+
+output_file: "D:/Git_repo/ViSoMMSD/data/external/llm_label/retry_multi_gemma-3-27b-it.json"
+failed_file: "D:/Git_repo/ViSoMMSD/data/external/llm_label/failed_retry_multi_gemma-3-27b-it.json"
+
+model_name: "gemma-3-27b-it"
+prompt_path: "D:/Git_repo/ViSoMMSD/prompt/CoT_4-shot_gemma.yaml"
+#Gemma 3 RPM = 30
+http_timeout: 60 #second [20-120]
+#batch_size: 30 # RPM/60
+max_workers: 1 # RPM/60*http_timeout*0.6
+
+
