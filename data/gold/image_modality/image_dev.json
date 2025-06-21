@@ -1,0 +1,802 @@
+[
+  {
+    "image": "fb_367.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_674.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8212.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9309.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4239.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6607.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_867.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_1457.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8684.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_9299.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7175.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8769.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1050.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_2727.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_405.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1650.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5847.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1003.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9993.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5368.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3826.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5538.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5412.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1443.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_633.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8395.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8254.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9070.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5963.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1831.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_769.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_975.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_1008.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_440.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2734.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7287.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4429.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_82.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_688.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4153.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_240.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7725.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3197.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_433.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1579.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1000.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_671.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2662.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_872.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4032.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_6682.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4144.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_441.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3867.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4365.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5730.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_1076.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6806.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_335.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_30.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1633.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_952.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_1220.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5968.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2639.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6980.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_842.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_5151.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_557.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8374.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3067.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4746.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_6611.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1751.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1414.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6915.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_736.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3427.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_89.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7304.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_70.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_851.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_789.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_6932.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_953.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4109.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9050.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_9241.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2541.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9831.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1360.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1230.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_76.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7787.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9880.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6413.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4493.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_3783.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_3282.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_2319.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_111.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_8399.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3751.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5869.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_659.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1028.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_215.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_3104.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_8979.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1094.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4053.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2113.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8490.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2325.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_893.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4017.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3844.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_439.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4423.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_655.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_161.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_6573.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4864.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4220.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3851.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2401.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_43.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2915.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3236.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7778.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6176.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_5883.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_9158.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5050.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_9931.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4572.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6987.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_7554.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4564.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_4739.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_178.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1341.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5393.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7634.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_339.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3180.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_56.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_114.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3114.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_1218.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_629.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9219.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6561.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_230.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_2848.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_703.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2767.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_3932.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_852.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_106.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_5432.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2217.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5878.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_889.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_524.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_661.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_3092.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1801.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_2825.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2726.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_617.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_683.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_637.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_1732.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_142.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1861.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_100.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_664.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_9002.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_500.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2622.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2934.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_8905.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_2808.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_6269.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_2208.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_7552.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_551.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_199.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_444.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_2703.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_996.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_4805.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_5046.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_5519.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_1447.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_400.jpg",
+    "label": "Non-sarcasm"
+  },
+  {
+    "image": "fb_871.jpg",
+    "label": "Sarcasm"
+  },
+  {
+    "image": "fb_494.jpg",
+    "label": "Non-sarcasm"
+  }
+]
